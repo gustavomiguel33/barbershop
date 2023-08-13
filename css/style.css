@@ -12,6 +12,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 /**********
 *  HOME
 ***********/
@@ -88,3 +93,24 @@ body {
     font-size: 120px;
 }
 
+/***********
+*   ABOUT
+************/
+
+.about {
+    height: 100vh;
+    background-color: var(--color-primary);
+}
+
+.about .container {
+    display: flex;
+}
+
+
+.about .timing {
+    width: 33%;
+}
+
+.about .experience {
+    width: 66%;
+}
