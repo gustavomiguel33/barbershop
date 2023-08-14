@@ -109,8 +109,61 @@ body {
 
 .about .timing {
     width: 33%;
+    padding: 20px;
+    background-image: url(../images/brush-big.jpg);
 }
+
+.about .timing .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.about .timing .overlay .icon-cut {
+    width: 50px;
+}
+
+.about .timing h3 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-primary);
+    width: fit-content;
+    margin: 0 auto 30px auto;
+    font-size: 30px;
+}
+
+.about .timing .text {
+    margin: 10px 0;
+}
+
+.about .timing .text::after {
+    content: '•';
+    display: block;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.about .timing .text:last-of-type::after {
+    content: '|';
+}
+
+.about .timing .text h4 {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about .timing span {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+}
+
 
 .about .experience {
     width: 66%;
 }
+
