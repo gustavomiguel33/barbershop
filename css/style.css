@@ -98,7 +98,6 @@ body {
 ************/
 
 .about {
-    height: 100vh;
     background-color: var(--color-primary);
 }
 
@@ -167,3 +166,6 @@ body {
     width: 66%;
 }
 
+.about .experience .text {
+    color: white;
+}
