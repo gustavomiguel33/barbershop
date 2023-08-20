@@ -195,25 +195,11 @@ body {
     margin-bottom: 20px;
 }
 
-.servicos {
-    height: 100vh;
+/************
+*  services
+*************/
+
+.services {
     text-align: center;
-    margin-top: 50px;
-}
-
-.servicos h2 {
-    font-size: 50px;
-    font-weight: 400;
-    color: var(--color-secondary);
-}
-
-.servicos .conteudo {
-    width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
-.conteudo .conteudo-texto {
-    width: 300px;    
+    padding: 100px 0;
 }
