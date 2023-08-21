@@ -1,6 +1,7 @@
 :root {
     --color-primary: #917758;
     --color-secondary: #725d43;
+    --color-primary-light: #f7e1c8;
 }
 
 * {
@@ -195,25 +196,41 @@ body {
     margin-bottom: 20px;
 }
 
-.servicos {
-    height: 100vh;
+/************
+*  SERVICES
+*************/
+
+.services {
+    padding: 100px 0;
     text-align: center;
-    margin-top: 50px;
+    background-color: var(--color-primary-light);
 }
 
-.servicos h2 {
-    font-size: 50px;
+.services h2 {
     font-weight: 400;
+    font-size: 50px;
     color: var(--color-secondary);
 }
 
-.servicos .conteudo {
-    width: 1170px;
-    margin: 0 auto;
+.services .boxes {
+    margin: 60px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.conteudo .conteudo-texto {
-    width: 300px;    
+.services .boxes .box {
+    border: 2px solid var(--color-primary);
+    margin: 0 15px;
+    padding: 40px;
+}
+
+.services .boxes .box h4 {
+    color: var(--color-secondary);
+    margin-top: 20px;
+}
+
+.services .boxes .box p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
 }
