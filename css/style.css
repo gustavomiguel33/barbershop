@@ -1,7 +1,7 @@
 :root {
     --color-primary: #917758;
     --color-secondary: #725d43;
-    --color-primary-light: #f7e1c8;
+    --color-primary-light: #F5EEE6;
 }
 
 * {
@@ -239,4 +239,19 @@ body {
     margin-top: 20px;
     font-size: 14px;
     line-height: 25px;
+}
+
+/*************
+*  SCHEDULING
+**************/
+
+.scheduling {
+    text-align: center;
+    background-color: var(--color-secondary);
+}
+
+.scheduling h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-primary-light);
 }
