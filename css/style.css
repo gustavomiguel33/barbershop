@@ -1,7 +1,7 @@
 :root {
     --color-primary: #917758;
-    --color-secondary: #725d43;
-    --color-primary-light: #ffead2;
+    --color-secondary: #63503a;
+    --color-primary-light: #F5EEE6;
 }
 
 * {
@@ -252,7 +252,7 @@ body {
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 300px;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
 
 .scheduling h2 {
@@ -274,30 +274,35 @@ body {
 }
 
 .form-box {
-    width: 25%;
-    margin-right: 20px;
+    width: 23%;
+
 }
 
 .form-box label, .mensagem label {
     display: block;
     color: var(--color-primary-light);
+    font-size: 14px;
 }
 
 
 .form-box input, .form-box select {
-    padding: 5px;
+    padding: 10px 15px;
     width: 100%;
     border: none;
+    border-radius: 2px;
 }
 
 .form-box input:focus, 
 .form-box select:focus,
-.form-boxes textarea {
+.mensagem textarea:focus {
     outline: none;
+    border: none;
 }
 
 
-
+.mensagem {
+    margin-top: 30px;
+}
 
 .mensagem textarea {
     width: 100%;
@@ -305,8 +310,15 @@ body {
 
 button {
     width: 200px;
-    padding: 5px;
-    background-color: var(--color-primary-light);
-    color: black;
+    padding: 15px 40px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--color-secondary);
+    color: white;
     border: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
