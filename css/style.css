@@ -322,3 +322,42 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+/*************
+*   GALLERY
+**************/
+
+.gallery {
+    padding: 80px;
+    background-position: right bottom;
+    background-color: var(--color-primary-light);
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
+
+.gallery img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery .gallery-wrapper {
+    margin: 50px 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px solid var(--color-primary);
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+    width: 100%;
+}
