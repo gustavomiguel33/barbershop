@@ -146,8 +146,41 @@
 
   <div class="scheduling">
     <section class="container">
-      <h1>Faça um Agendamento</h1>
+      <h2>Faça um Agendamento</h2>
       <img src="images/heading-ic-white.png" alt="Heading ic">
+
+      <div class="form-boxes">
+        <div class="form-box">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div class="form-box">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div class="form-box">
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+        </div>
+
+        <div class="form-box">
+          <label for="tipo-servicos">Tipo de serviços</label>
+          <select name="tipo-servicos" id="tipo-servicos">
+            <option value="Opt1">Opt1</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mensagem">
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="100" rows="10"></textarea>
+      </div>
+
+
+      <button>Enviar</button>
+
     </section>
   </div>
 

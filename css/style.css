@@ -1,7 +1,7 @@
 :root {
     --color-primary: #917758;
     --color-secondary: #725d43;
-    --color-primary-light: #F5EEE6;
+    --color-primary-light: #ffead2;
 }
 
 * {
@@ -51,6 +51,7 @@ body {
     text-transform: uppercase;
     padding: 30px;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .home .header .nav ul li a:hover {
@@ -246,12 +247,66 @@ body {
 **************/
 
 .scheduling {
-    text-align: center;
+    padding: 80px;
+    background-image: url(../images/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
     background-color: var(--color-secondary);
 }
 
-.scheduling h1 {
+.scheduling h2 {
+    text-align: center;
     font-size: 40px;
     font-weight: 400;
     color: var(--color-primary-light);
+}
+
+.scheduling img {
+    display: block;
+    margin: 10px auto 0;
+}
+
+.form-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.form-box {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.form-box label, .mensagem label {
+    display: block;
+    color: var(--color-primary-light);
+}
+
+
+.form-box input, .form-box select {
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+
+.form-box input:focus, 
+.form-box select:focus,
+.form-boxes textarea {
+    outline: none;
+}
+
+
+
+
+.mensagem textarea {
+    width: 100%;
+}
+
+button {
+    width: 200px;
+    padding: 5px;
+    background-color: var(--color-primary-light);
+    color: black;
+    border: none;
 }
