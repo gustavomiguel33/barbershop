@@ -361,3 +361,43 @@ button:hover {
 .gallery .gallery-wrapper div img {
     width: 100%;
 }
+
+
+/*****************
+*  LOCALIZATION
+******************/
+
+.localization {
+    background-image: url(../images/bg-location.jpg);
+    height: 100vh;
+}
+
+
+.localization .localization-all {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+}
+
+.localization .localization-all img {
+    display: block;
+}
+
+.localization .localization-all .localization-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localization .localization-all .localization-items img {
+    margin-right: 15px;
+}
+
+.localization .localization-all .localization-items span,
+.localization .localization-all .localization-items p {
+    font-size: 13px;
+    color: var(--color-primary-light);
+
+}
