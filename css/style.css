@@ -26,6 +26,7 @@ body {
 .home {
     background-image: url(../images/bg-home.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
 }
@@ -329,7 +330,6 @@ button:hover {
 
 .gallery {
     padding: 80px;
-    background-position: right bottom;
     background-color: var(--color-primary-light);
 }
 
@@ -351,6 +351,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 900px;
+    margin: 50px auto 30px;
 }
 
 .gallery .gallery-wrapper div {
@@ -369,15 +371,19 @@ button:hover {
 
 .localization {
     background-image: url(../images/bg-location.jpg);
-    height: 100vh;
+    background-size: cover;
+}
+
+.localization .container {
+    padding: 60px 0;
 }
 
 
 .localization .localization-all {
-    background-color: black;
+    background-color: #191919;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 35px;
     color: white;
 }
 
@@ -392,12 +398,27 @@ button:hover {
 }
 
 .localization .localization-all .localization-items img {
-    margin-right: 15px;
+    margin: 0 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .localization .localization-all .localization-items span,
 .localization .localization-all .localization-items p {
     font-size: 13px;
     color: var(--color-primary-light);
+    line-height: 14px;
+}
 
+.localization iframe {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #191919;
+    color: white;
+    padding: 50px;
+    font-size: 12px;
 }
